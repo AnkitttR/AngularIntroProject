@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
   btnClick()
   {
     console.log("btn click");
-    this.snack.open("Hey welcome to this app")
+    this.snack.open("Hey welcome to this app","Cancel")
 
   }
 
